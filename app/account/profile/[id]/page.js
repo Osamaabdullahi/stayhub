@@ -10,6 +10,7 @@ import {
 } from "react-icons/fa";
 import Link from "next/link";
 import Navbar from "@/components/Navbar";
+import NotificationComponent from "@/components/Notification";
 
 const UserProfile = ({ params }) => {
   const [isFollowing, setIsFollowing] = useState(false);

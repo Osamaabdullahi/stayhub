@@ -29,7 +29,7 @@ export default function ConfirmEmail() {
             Confirm Your Email
           </h2>
           <p className="text-gray-700 mb-6 text-center">
-            Thank you for signing up! We've sent a confirmation link to your
+            Thank you for signing up! We&aposve sent a confirmation link to your
             email address. Please check your inbox and click the link to confirm
             your email.
           </p>

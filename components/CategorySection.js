@@ -1,16 +1,5 @@
 "use client";
 import React from "react";
-import {
-  FaLandmark,
-  FaCastle,
-  FaTree,
-  FaWater,
-  FaStar,
-  FaCampground,
-  FaSwimmingPool,
-  FaUmbrellaBeach,
-  FaCity,
-} from "react-icons/fa";
 
 const categories = [
   { name: "Castles" },
@@ -26,37 +15,6 @@ const categories = [
   { name: "Design" },
   { name: "Historical" },
 ];
-
-const IconsContainer = ({ name }) => {
-  switch (name.trim()) {
-    case "Castles":
-      return <FaCastle className="inline mr-2" />;
-    case "Tropical":
-      return <FaUmbrellaBeach className="inline mr-2" />;
-    case "Islands":
-      return <FaWater className="inline mr-2" />;
-    case "Beach house":
-      return <FaSwimmingPool className="inline mr-2" />;
-    case "National parks":
-      return <FaTree className="inline mr-2" />;
-    case "Lakefront":
-      return <FaWater className="inline mr-2" />;
-    case "Campers":
-      return <FaCampground className="inline mr-2" />;
-    case "Amazing views":
-      return <FaStar className="inline mr-2" />;
-    case "Top cities!":
-      return <FaCity className="inline mr-2" />;
-    case "Beach":
-      return <FaUmbrellaBeach className="inline mr-2" />;
-    case "Design":
-      return <FaStar className="inline mr-2" />;
-    case "Historical":
-      return <FaLandmark className="inline mr-2" />;
-    default:
-      return null;
-  }
-};
 
 const Categories = ({ genre, setgenre }) => {
   return (
