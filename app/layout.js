@@ -1,6 +1,5 @@
 import localFont from "next/font/local";
 import "./globals.css";
-import { Suspense } from "react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { NextAuthProvider } from "./NextAuthProvider";
