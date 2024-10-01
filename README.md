@@ -1,4 +1,3 @@
-To create a professional and concise `README.md` for your StayHub web app, you can include the following sections:
 
 ---
 
@@ -39,7 +38,7 @@ Follow the instructions below to set up the frontend part of the StayHub applica
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/stayhub-frontend.git
+   git clone https://github.com/Osamaabdullahi/stayhub.git
    cd stayhub-frontend
    ```
 
